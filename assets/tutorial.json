@@ -1,0 +1,47 @@
+{
+  "firstRun": {
+    "entryRule": "保存Level<=1直接进入当前关卡；Level>1进入主页",
+    "source": "Hot.cs:177657-177735 HotEntry",
+    "newUserFlag": "仅用于首日埋点及置false，不决定入口"
+  },
+  "gestureRule": {
+    "finishTrigger": "RingSolved",
+    "hideOnGesture": true,
+    "reshowAfterReleaseWithoutSolveSeconds": 3,
+    "source": "Hot.cs:11218-11491 WeakGuideManager；152491 RotateRingHandle.TryFinishStep"
+  },
+  "entries": [
+    {
+      "level": 1,
+      "guideIndex": "default",
+      "sourceBundle": "defaultpackage_assets_02_res_art_scriptableobject_weakguide_levelguide_71228289bffd6837acefdf0536f333e9.bundle",
+      "sourcePathId": "8331948527423060386",
+      "steps": [
+        {
+          "StepIndex": 0,
+          "StepName": "drag_ring2",
+          "GuideTextKey": "Tutorial_Operation",
+          "HandleId": "RotateRing",
+          "InitialDelay": 0.800000011920929,
+          "LoopDelay": 0.800000011920929,
+          "AfterOpenDelay": 0.15000000596046448,
+          "BeforeCloseDelay": 0.30000001192092896,
+          "OpenAnimation": "guide_drag_open",
+          "CloseAnimation": "guide_drag_close",
+          "Params": {
+            "TargetRingPhysicPartId": "ring_2",
+            "TotalRotation": 180.0,
+            "RotationDuration": 0.699999988079071,
+            "HighlightFadeDuration": 0.30000001192092896,
+            "Direction": -1,
+            "GuideTextKey": "guide_text_drag_ring",
+            "HighlightZOffset": -0.009999999776482582,
+            "AdjustOtherRingPhysicPartId": "ring_1",
+            "AdjustOtherRingCrossBarZ": -0.009999999776482582,
+            "HandAngleFromGapDeg": 136.0
+          }
+        }
+      ]
+    }
+  ]
+}

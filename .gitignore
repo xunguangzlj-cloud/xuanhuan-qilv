@@ -1,0 +1,14 @@
+node_modules/
+preview.bundle.js
+preview.bundle.js.map
+project.private.config.json
+.env
+.env.*
+!.env.example
+*.log
+tests/controller-review-results.json
+.test-results/
+work/
+tmp/
+.DS_Store
+Thumbs.db

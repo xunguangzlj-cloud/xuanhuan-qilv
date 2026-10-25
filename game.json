@@ -1,0 +1,59 @@
+{
+  "deviceOrientation": "portrait",
+  "showStatusBar": false,
+  "subpackages": [
+    {
+      "name": "audio1",
+      "root": "packages/audio1"
+    },
+    {
+      "name": "audio2",
+      "root": "packages/audio2"
+    },
+    {
+      "name": "geometry",
+      "root": "packages/geometry"
+    },
+    {
+      "name": "levels1",
+      "root": "packages/levels1"
+    },
+    {
+      "name": "levels2",
+      "root": "packages/levels2"
+    },
+    {
+      "name": "levels3",
+      "root": "packages/levels3"
+    },
+    {
+      "name": "levels4",
+      "root": "packages/levels4"
+    },
+    {
+      "name": "levels5",
+      "root": "packages/levels5"
+    },
+    {
+      "name": "ui-art-1",
+      "root": "ui-art-1"
+    },
+    {
+      "name": "ui-art-2",
+      "root": "ui-art-2"
+    },
+    {
+      "name": "characters",
+      "root": "packages/characters"
+    },
+    {
+      "name": "home-characters",
+      "root": "packages/home-characters"
+    },
+    {
+      "name": "rewards",
+      "root": "packages/rewards"
+    }
+  ],
+  "openDataContext": "open-data"
+}

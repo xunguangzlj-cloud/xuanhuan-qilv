@@ -1,0 +1,147 @@
+{
+  "appid": "touristappid",
+  "projectname": "旋环奇旅",
+  "compileType": "game",
+  "setting": {
+    "es6": true,
+    "minified": true,
+    "postcss": false,
+    "compileWorklet": false,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "enhance": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "minifyWXML": true,
+    "localPlugins": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "condition": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "value": "preview-server.cjs",
+        "type": "file"
+      },
+      {
+        "value": "preview.html",
+        "type": "file"
+      },
+      {
+        "value": "preview.bundle.js",
+        "type": "file"
+      },
+      {
+        "value": "preview.bundle.js.map",
+        "type": "file"
+      },
+      {
+        "value": "本地预览.cmd",
+        "type": "file"
+      },
+      {
+        "value": "assets/ui/ui-data.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/config/config-source.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/tutorial/hand-frames.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/settlement/ui-data.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/ambient/ambient.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/ui/subpackages.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/background/material.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/chest-effects/effects.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/effects/release.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/rings/materials.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/settlement/presentation.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/parts/materials.json",
+        "type": "file"
+      },
+      {
+        "value": "assets/characters/win-presentation.json",
+        "type": "file"
+      },
+      {
+        "value": "tests",
+        "type": "folder"
+      },
+      {
+        "value": "scripts",
+        "type": "folder"
+      },
+      {
+        "value": "node_modules",
+        "type": "folder"
+      },
+      {
+        "value": ".git",
+        "type": "folder"
+      },
+      {
+        "value": ".github",
+        "type": "folder"
+      },
+      {
+        "value": "README.md",
+        "type": "file"
+      },
+      {
+        "value": "package.json",
+        "type": "file"
+      },
+      {
+        "value": "package-lock.json",
+        "type": "file"
+      },
+      {
+        "value": ".gitignore",
+        "type": "file"
+      },
+      {
+        "value": ".gitattributes",
+        "type": "file"
+      }
+    ],
+    "include": []
+  },
+  "simulatorPluginLibVersion": {},
+  "isGameTourist": true,
+  "editorSetting": {}
+}
